@@ -1,6 +1,10 @@
 # Casket
 Last Updated: 2014-05-02, Chris Tankersley
 
+[![Build Status](https://travis-ci.org/dragonmantank/casket.svg)](https://travis-ci.org/dragonmantank/casket)
+
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/dragonmantank/casket/badges/quality-score.png?s=9de51acaefc732ff0285a785c772b58e9ad63e62)](https://scrutinizer-ci.com/g/dragonmantank/casket/)
+
 Casket is a compact Object Relational Management library for PHP. It allows for 
 quick prototyping and management of objects that need to be persisted. Casket is a fork of
 PhpORM, an older ORM I created. You can find it at https://github.com/dragonmantank/PhpORM
