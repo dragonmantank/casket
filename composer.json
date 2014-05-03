@@ -1,0 +1,30 @@
+{
+    "name": "dragonmantank/casket",
+    "type": "project",
+    "description": "A compact PHP Object Relational Management library",
+    "keywords": [
+        "orm",
+        "database"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Chris Tankersley",
+            "homepage": "http://ctankersley.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "aura/sql": "2.*@dev",
+        "aura/sql-query": "2.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Casket\\": "src/"
+        }
+    }
+}
