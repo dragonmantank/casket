@@ -29,11 +29,11 @@ An Entity would look like this:
 
     Class Animal
     {
-        protected $id;           // Database ID
-        protected $type;         // Type of animal
-        protected $inductionDate // Date Animal came to Shelter
-        protected $name;         // Name of the animal
-        protected $shelter_id    // Foreign key of the animal shelter
+        public $id;           // Database ID
+        public $type;         // Type of animal
+        public $inductionDate // Date Animal came to Shelter
+        public $name;         // Name of the animal
+        public $shelter_id    // Foreign key of the animal shelter
     }
 
 You could then access the entity like this:
